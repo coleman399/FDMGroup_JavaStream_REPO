@@ -9,15 +9,13 @@ public class Employee {
     private int experience;
     private Designation designation;
     private List<Skill> skills;
-    private String email;
 
-    public Employee(String name, Unit unit, int experience, Designation designation, List<Skill> skills, String email) {
+    public Employee(String name, int experience, Designation designation, Unit unit, List<Skill> skills) {
         this.name = name;
         this.unit = unit;
         this.experience = experience;
         this.designation = designation;
         this.skills = skills;
-        this.email = email;
     }
 
     public String getName() {
@@ -58,14 +56,6 @@ public class Employee {
 
     public void setSkills(List<Skill> skills) {
         this.skills = skills;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     @Override

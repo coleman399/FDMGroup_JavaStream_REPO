@@ -10,6 +10,6 @@ public enum Skill {
     EXCEL,
     SCRUM,
     FINANCE,
-    ADMIN;
+    ADMIN, PYTHON, MICROSERVICES;
     
 }
