@@ -41,7 +41,7 @@ public class Runner {
         // 4. The average account balance.
         OptionalDouble optionalAverageBalance = accounts.stream().mapToDouble(account -> account.getBalance())
                 .average();
-        System.out.println("Optional Average Balance: " + optionalAverageBalance);
+        System.out.println("optional average balance: " + optionalAverageBalance);
 
         // 5. The average balance of accounts which are in credit.
         OptionalDouble optionalAverageBalanceOfPositiveAccounts = accounts.stream()
