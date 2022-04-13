@@ -87,6 +87,7 @@
         </configuration>
         <executions>
           <execution>
+            <?m2e ignore?>
             <id>checkstyle</id>
             <phase>validate</phase>
             <goals>
