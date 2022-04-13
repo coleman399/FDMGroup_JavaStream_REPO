@@ -1,4 +1,4 @@
-package com.fdmgroup.lambda_expression_tutorial;
+package com.fdmgroup.streams_tutorial;
 
 public class Trainee {
     private String firstName;
@@ -7,7 +7,7 @@ public class Trainee {
     private Integer week;
     private Integer age;
     private Double averageGrade;
-
+    
     public Trainee(String firstName, String lastName, String stream, Integer week, Integer age, Double averageGrade) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -70,5 +70,4 @@ public class Trainee {
         return "Trainee [age=" + age + ", averageGrade=" + averageGrade + ", firstName=" + firstName + ", lastName="
                 + lastName + ", stream=" + stream + ", week=" + week + "]";
     }
-
 }

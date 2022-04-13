@@ -22,26 +22,31 @@ public class Examples {
         Trainee trainee5 = new Trainee("Pat", "Brown", "BA", 7, 22, 94.0);
         Trainee trainee6 = new Trainee("Fay", "Davies", "Java", 2, 26, 50.0);
 
+        //Function
         Function<Trainee, String> getTraineeFullName = trainee -> trainee.getFirstName() + " " + trainee.getLastName();
         String trainee1_fullName = getTraineeFullName.apply(trainee1);
         System.out.println(trainee1_fullName);
 
+        //BiFunction
         BiFunction<Trainee, String, String> getTraineeNameWithTitle = (trainee, title) -> title + " "
                 + trainee.getFirstName() + " " + trainee.getLastName();
         String trainee2_nameWithTitle = getTraineeNameWithTitle.apply(trainee2, "Ms");
         System.out.println(trainee2_nameWithTitle);
 
+        //Predicate
         Predicate<Trainee> veryWeakTrainee = trainee -> trainee.getAverageGrade() < 50;
         Boolean trainee3_veryWeakTrainee = veryWeakTrainee.test(trainee3);
         Boolean trainee4_veryWeakTrainee = veryWeakTrainee.test(trainee4);
         System.out.println("is trainee3 weak? " + trainee3_veryWeakTrainee);
         System.out.println("is trainee4 weak? " + trainee4_veryWeakTrainee);
 
+        //BinaryOperator
         BinaryOperator<Trainee> getOldestTrainee = (firstTrainee,
                 secondTrainee) -> firstTrainee.getAge() > secondTrainee.getAge() ? firstTrainee : secondTrainee;
         Trainee oldestTrainee = getOldestTrainee.apply(trainee1, trainee2);
         System.out.println("Oldest Trainee: " + oldestTrainee.toString());
 
+        //Consumer
         Consumer<Trainee> printFullName = trainee -> System.out
                 .println(trainee.getFirstName() + " " + trainee.getLastName());
 
@@ -56,18 +61,21 @@ public class Examples {
         // removeIf Takes a Predicate
         trainees.removeIf(veryWeakTrainee);
 
+        //Comparator
         Comparator<Trainee> traineeStreamComparator = (firstTrainee, secondTrainee) -> firstTrainee.getStream()
                 .compareTo(secondTrainee.getStream());
         Collections.sort(trainees, traineeStreamComparator);
         System.out.println("Sort by Stream: ");
         trainees.forEach(trainee -> System.out.println(trainee));
 
+        //Comparator
         Comparator<Trainee> traineeGradeComparator = (firstTrainee, secondTrainee) -> firstTrainee.getAverageGrade()
                 .compareTo(secondTrainee.getAverageGrade());
         Collections.sort(trainees, traineeGradeComparator);
         System.out.println("Sort by Grade: ");
         trainees.forEach(trainee -> System.out.println(trainee));
 
+        //Comparator
         Comparator<Trainee> traineeStreamThenGradeComparator = traineeStreamComparator
                 .thenComparing(traineeGradeComparator);
         Collections.sort(trainees, traineeStreamThenGradeComparator);
