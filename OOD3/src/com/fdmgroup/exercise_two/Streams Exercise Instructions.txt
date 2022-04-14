@@ -24,6 +24,7 @@ C.	Implement a Publisher class with:
 D.	Implement an enum CoverType with two enums - Paperback and Hardcover
 
 E.	Implement multiple constructors for Book, Author and Publisher class.
+
 F.	Override toString methods for Book, Author and Publisher class.
 
 G.	Implement class BookService with the next methods
