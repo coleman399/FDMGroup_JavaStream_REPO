@@ -1,4 +1,4 @@
-
+package com.fdmgroup.inheritance_exercise;
 
 import java.util.ArrayList;
 

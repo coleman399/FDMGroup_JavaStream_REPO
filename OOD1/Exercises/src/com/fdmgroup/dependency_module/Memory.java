@@ -1,7 +1,8 @@
+package com.fdmgroup.dependency_module;
 
 public class Memory {
     private final String MODEL;
-    private final double CAPACITY;  
+    private final double CAPACITY;
     private final double USEDSPACE;
     private double speed;
 
@@ -31,7 +32,7 @@ public class Memory {
     public double getUSEDSPACE() {
         return USEDSPACE;
     }
-    
+
     public void storeData(String data) {
         System.out.println("storeData method: " + data);
     }
@@ -41,5 +42,5 @@ public class Memory {
         return "Memory [CAPACITY=" + CAPACITY + ", MODEL=" + MODEL + ", USEDSPACE=" + USEDSPACE + ", speed=" + speed
                 + "]";
     }
-    
+
 }

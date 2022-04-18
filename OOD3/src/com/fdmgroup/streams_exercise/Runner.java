@@ -1,4 +1,4 @@
-
+package com.fdmgroup.streams_exercise;
 
 import java.util.ArrayList;
 import java.util.Arrays;

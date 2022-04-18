@@ -1,4 +1,4 @@
-
+package com.fdmgroup.optional_tutorial;
 
 public class Memory {
     private String model;

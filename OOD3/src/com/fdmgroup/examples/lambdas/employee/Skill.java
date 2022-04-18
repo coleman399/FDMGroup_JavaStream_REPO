@@ -1,4 +1,4 @@
-
+package com.fdmgroup.examples.lambdas.employee;
 
 public enum Skill {
 
@@ -11,5 +11,5 @@ public enum Skill {
     SCRUM,
     FINANCE,
     ADMIN, PYTHON, MICROSERVICES;
-    
+
 }

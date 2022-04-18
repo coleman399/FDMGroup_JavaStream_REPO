@@ -1,4 +1,4 @@
-
+package com.fdmgroup.dependency_module;
 
 public class HardDrive {
     private final String MODEL;
@@ -15,11 +15,11 @@ public class HardDrive {
         this.CAPACITY = capacity;
     }
 
-    public String readData(String file){
+    public String readData(String file) {
         return "data from " + file;
     }
 
-    public void writeData(String data, String file){
+    public void writeData(String data, String file) {
         System.out.println("writeData method: data = " + data + " file = " + file);
     }
 

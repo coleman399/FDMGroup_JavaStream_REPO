@@ -1,4 +1,4 @@
-
+package com.fdmgroup.streams_tutorial;
 
 public class Trainee {
     private String firstName;
@@ -7,7 +7,7 @@ public class Trainee {
     private Integer week;
     private Integer age;
     private Double averageGrade;
-    
+
     public Trainee(String firstName, String lastName, String stream, Integer week, Integer age, Double averageGrade) {
         this.firstName = firstName;
         this.lastName = lastName;

@@ -1,4 +1,4 @@
-
+package com.fdmgroup.streams_exercise;
 
 public class BankAccount {
     private int accountNumber;

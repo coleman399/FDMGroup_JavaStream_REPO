@@ -1,11 +1,11 @@
-
+package com.fdmgroup.examples.doodle;
 
 public class ThreadLambdas {
     public static void main(String[] args) {
         // Thread t = new Thread(new Runnable() {
-        //     public void run() {
-        //         doSomething();
-        //     }
+        // public void run() {
+        // doSomething();
+        // }
         // });
         // t.start();
 

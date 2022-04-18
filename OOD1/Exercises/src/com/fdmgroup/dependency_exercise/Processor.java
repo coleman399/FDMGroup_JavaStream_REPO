@@ -1,8 +1,8 @@
-
+package com.fdmgroup.dependency_exercise;
 
 public class Processor {
     private final String MODEL;
-    private final double SPEED; 
+    private final double SPEED;
     private final int NUMBER_OF_CORES;
 
     public Processor(String model, double speed, int numberOfCores) {
@@ -11,7 +11,7 @@ public class Processor {
         this.NUMBER_OF_CORES = numberOfCores;
     }
 
-    public void processData(String data){
+    public void processData(String data) {
         System.out.println("storeData : " + data);
     }
 

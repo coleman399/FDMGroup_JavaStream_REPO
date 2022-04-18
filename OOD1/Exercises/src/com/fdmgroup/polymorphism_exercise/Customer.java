@@ -1,4 +1,4 @@
-
+package com.fdmgroup.polymorphism_exercise;
 
 public class Customer extends UserAccount {
     private static int minCustomerPasswordLength;

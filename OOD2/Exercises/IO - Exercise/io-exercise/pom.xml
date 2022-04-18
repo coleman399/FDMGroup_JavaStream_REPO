@@ -40,7 +40,7 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <version>5.8.2</version>
     </dependency>
-    
+
   </dependencies>
   <build>
     <plugins>
@@ -87,6 +87,7 @@
         </configuration>
         <executions>
           <execution>
+            <?m2e ignore?>
             <id>checkstyle</id>
             <phase>validate</phase>
             <goals>

@@ -1,4 +1,4 @@
-
+package com.fdmgroup.dependency_exercise;
 
 public class Computer {
     private final String MODEL;
@@ -13,15 +13,15 @@ public class Computer {
         this.PROCESSOR = processor;
     }
 
-    public void turnOn(){
+    public void turnOn() {
         System.out.println("turn on method called");
     }
 
-    public void turnOff(){
+    public void turnOff() {
         System.out.println("turn off method called");
     }
 
-    public void getPower(PowerSource powerSource){
+    public void getPower(PowerSource powerSource) {
         System.out.println("Power : " + powerSource.supplyPower());
     }
 

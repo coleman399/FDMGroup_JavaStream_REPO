@@ -1,4 +1,4 @@
-
+package com.fdmgroup.static_keyword_exercise;
 
 public class EnergyMatterCalculator {
     public static final double SPEED_OF_LIGHT = 299792458.00;

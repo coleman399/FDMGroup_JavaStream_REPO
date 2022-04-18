@@ -1,3 +1,4 @@
+package com.fdmgroup.interface_exercise;
 
 public class Toy implements BasketItem {
     private int minAge;
@@ -5,7 +6,7 @@ public class Toy implements BasketItem {
 
     private String name;
     private double price;
-    
+
     public Toy(int minAge, int maxAge, String name, double price) {
         this.minAge = minAge;
         this.maxAge = maxAge;
@@ -17,17 +18,20 @@ public class Toy implements BasketItem {
     public String getName() {
         return name;
     }
+
     @Override
     public void setName(String name) {
         this.name = name;
     }
+
     @Override
     public double getPrice() {
         return price;
     }
+
     @Override
     public void setPrice(double price) {
-        this.price = price;        
+        this.price = price;
     }
 
     public int getMaxAge() {

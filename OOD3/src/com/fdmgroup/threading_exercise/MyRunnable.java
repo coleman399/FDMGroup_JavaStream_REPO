@@ -1,4 +1,4 @@
-
+package com.fdmgroup.threading_exercise;
 
 public class MyRunnable implements Runnable {
     String name;
@@ -6,6 +6,7 @@ public class MyRunnable implements Runnable {
     MyRunnable(String name) {
         this.name = name;
     }
+
     MyRunnable(String name, int count) {
         this.name = name + count;
     }

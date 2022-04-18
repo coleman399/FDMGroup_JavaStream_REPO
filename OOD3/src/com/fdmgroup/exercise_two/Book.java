@@ -1,4 +1,4 @@
-
+package com.fdmgroup.exercise_two;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

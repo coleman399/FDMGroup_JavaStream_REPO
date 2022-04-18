@@ -1,6 +1,6 @@
+package com.fdmgroup.inheritance_exercise;
 
-
-public class AdminUser extends UserAccount{
+public class AdminUser extends UserAccount {
 
     public AdminUser(String username, String password, String fullName) {
         super(username, password, fullName);
@@ -8,6 +8,6 @@ public class AdminUser extends UserAccount{
 
     @Override
     public void accessWebsites() {
-        System.out.println("accessing website");     
-    }  
+        System.out.println("accessing website");
+    }
 }

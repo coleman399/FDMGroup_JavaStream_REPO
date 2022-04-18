@@ -1,4 +1,4 @@
-
+package com.fdmgroup.optional_tutorial;
 
 import java.util.ArrayList;
 import java.util.function.Supplier;
@@ -153,7 +153,7 @@ public class Runner {
                 "missing motherboard");
 
         Supplier<MissingMemoryException> missingMemory = () -> new MissingMemoryException("missing memory");
-        
+
         // Motherboard motherboard = new Motherboard("motherboard");
         // computer2.setMotherboard(motherboard);
 

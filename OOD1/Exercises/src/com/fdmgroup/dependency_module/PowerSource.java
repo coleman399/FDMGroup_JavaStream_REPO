@@ -1,4 +1,4 @@
-
+package com.fdmgroup.dependency_module;
 
 public class PowerSource {
     double watts;

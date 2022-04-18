@@ -1,4 +1,4 @@
-
+package com.fdmgroup.interface_exercise;
 
 public interface FoodItem {
     

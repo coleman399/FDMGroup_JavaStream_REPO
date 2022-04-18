@@ -1,4 +1,4 @@
-
+package com.fdmgroup.inheritance_exercise;
 
 public class Customer extends UserAccount {
 

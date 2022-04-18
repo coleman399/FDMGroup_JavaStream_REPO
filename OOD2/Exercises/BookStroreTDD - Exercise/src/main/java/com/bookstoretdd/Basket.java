@@ -1,4 +1,4 @@
-
+package com.bookstoretdd;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -21,7 +21,7 @@ public class Basket implements Checkout {
     @Override
     public BigDecimal calculatePrice() {
         BigDecimal result = new BigDecimal(0.0);
-        if (bookList.size() <= 2 && bookList.size() > 0){
+        if (bookList.size() <= 2 && bookList.size() > 0) {
             for (Book book : bookList) {
                 result = result.add(book.getPrice());
             }
@@ -34,8 +34,8 @@ public class Basket implements Checkout {
             return result.subtract(result.multiply(tax));
         } else if (bookList.size() >= 7 && bookList.size() < 10) {
             BigDecimal tax = new BigDecimal(0.02);
-                for (Book book : bookList) {
-                    result = result.add(book.getPrice());
+            for (Book book : bookList) {
+                result = result.add(book.getPrice());
             }
             return result.subtract(result.multiply(tax));
         } else {

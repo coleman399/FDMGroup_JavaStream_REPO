@@ -1,4 +1,4 @@
-
+package com.fdmgroup.exercise_one;
 
 @FunctionalInterface
 public interface NumberFilter {

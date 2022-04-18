@@ -1,4 +1,4 @@
-
+package com.fdmgroup.dependency_module;
 
 public class Computer {
     private final String MODEL;
@@ -14,15 +14,15 @@ public class Computer {
         this.PROCESSOR = processor;
     }
 
-    public void turnOn(){
-        
+    public void turnOn() {
+
     }
-    
-    public void turnOff(){
-        
+
+    public void turnOff() {
+
     }
-    
-    public void getPower(PowerSource powerSource){
+
+    public void getPower(PowerSource powerSource) {
         powerSource.supplyPower();
         System.out.println("Computer received power.");
     }
@@ -30,7 +30,7 @@ public class Computer {
     public void setHardDrive(HardDrive hardDrive) {
         this.hardDrive = hardDrive;
     }
-    
+
     public void setMemory(Memory memory) {
         this.memory = memory;
     }

@@ -1,7 +1,7 @@
-
+package com.fdmgroup.examples.lambdas.employee;
 
 public enum Unit {
-    
+
     CANADA("Canada"),
     NYC("New York"),
     AUS("Austin"),
@@ -10,5 +10,5 @@ public enum Unit {
 
     private Unit(String location) {
     }
-       
+
 }

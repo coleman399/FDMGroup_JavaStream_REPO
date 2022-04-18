@@ -1,4 +1,4 @@
-
+package com.fdmgroup.lambda_expression_tutorial;
 
 public class Trainee {
     private String firstName;

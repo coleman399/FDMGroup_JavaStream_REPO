@@ -1,4 +1,4 @@
-
+package com.fdmgroup.static_keyword_exercise;
 public class Runner {
     public static void main(String[] args) {
         System.out.println(EnergyMatterCalculator.matterToEnergy(5.0));

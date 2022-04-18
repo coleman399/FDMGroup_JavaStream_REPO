@@ -1,4 +1,4 @@
-
+package com.fdmgroup.dependency_exercise;
 
 public class HardDrive {
     private final String MODEL;
@@ -10,11 +10,11 @@ public class HardDrive {
         this.CAPACITY = capacity;
     }
 
-    public String readData(String file){
+    public String readData(String file) {
         return "readData : " + file;
     }
 
-    public void writeData(String data, String file){
+    public void writeData(String data, String file) {
         System.out.println("writeData : " + data + " & " + file);
     }
 
@@ -25,6 +25,7 @@ public class HardDrive {
     public String getMODEL() {
         return MODEL;
     }
+
     public double getUsedSpace() {
         return usedSpace;
     }

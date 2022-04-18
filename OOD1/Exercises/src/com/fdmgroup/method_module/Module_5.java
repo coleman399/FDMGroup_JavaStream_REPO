@@ -1,4 +1,4 @@
-
+package com.fdmgroup.method_module;
 
 import java.util.Arrays;
 
@@ -8,7 +8,7 @@ public class Module_5 {
         int points = getPoints("Green");
         System.out.println("You've scored " + points + " points!");
     }
-    
+
     public static boolean leapYear(int year) {
         if (year % 4 != 0) {
             return false;
@@ -51,8 +51,8 @@ public class Module_5 {
         int count = 0;
 
         for (int element : array) {
-            if (element == number ){
-                count ++;
+            if (element == number) {
+                count++;
             }
         }
         return count;
@@ -62,14 +62,14 @@ public class Module_5 {
         Arrays.sort(array);
         int highestIndex = array.length - 1;
         int maximum = array[highestIndex];
-        return maximum;        
+        return maximum;
     }
 
-    public static int[] extractEvenArray(int[] array){
+    public static int[] extractEvenArray(int[] array) {
         int newArrayLength = 0;
-        for (int number : array){
+        for (int number : array) {
             if (number % 2 == 0) {
-                newArrayLength ++;
+                newArrayLength++;
             }
         }
         int[] evenNumbers = new int[newArrayLength];
@@ -77,7 +77,7 @@ public class Module_5 {
         for (int number : array) {
             if (number % 2 == 0) {
                 evenNumbers[evenNumberIndex] = number;
-                evenNumberIndex ++;
+                evenNumberIndex++;
             }
         }
         return evenNumbers;
@@ -86,7 +86,7 @@ public class Module_5 {
     public static String[] reverseStringArray(String[] array) {
         int length = array.length;
         String[] reversed = new String[length];
-        
+
         for (int i = 0; i < length; i++) {
             int reversedIndex = length - 1 - i;
             reversed[reversedIndex] = array[i];

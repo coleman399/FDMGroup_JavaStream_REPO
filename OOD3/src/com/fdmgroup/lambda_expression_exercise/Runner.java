@@ -1,4 +1,4 @@
-
+package com.fdmgroup.lambda_expression_exercise;
 
 import java.util.ArrayList;
 import java.util.Arrays;

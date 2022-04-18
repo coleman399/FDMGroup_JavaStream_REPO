@@ -1,9 +1,9 @@
-
+package com.fdmgroup.exercise_two;
 
 public class Publisher {
     private int id;
     private String publisherName;
-   
+
     public Publisher(int id, String publisherName) {
         this.id = id;
         this.publisherName = publisherName;

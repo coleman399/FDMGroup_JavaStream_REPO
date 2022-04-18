@@ -1,4 +1,4 @@
-
+package com.fdmgroup.thread_example;
 
 public class MainOne {
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package com.fdmgroup.lambda_expression_exercise;
 
 public class BankAccount {
     private int accountNumber;

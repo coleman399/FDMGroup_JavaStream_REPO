@@ -1,4 +1,4 @@
-
+package com.fdmgroup.threading_exercise;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -51,17 +51,17 @@ public class FileReaderThread extends Thread {
             BufferedReader reader = new BufferedReader(new FileReader(fileName));
             String line = reader.readLine();
             reader.close();
-            while(line != null) {
+            while (line != null) {
                 String[] splitLine = line.split(",");
                 for (String part : splitLine) {
                     int number = Integer.parseInt(part);
                     averageCalculator.addToTotal(number);
                 }
-                break;   
+                break;
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } 
+        }
     }
 
     public long getTotal() {
@@ -76,5 +76,4 @@ public class FileReaderThread extends Thread {
         return averageCalculator.calculateAverage();
     }
 
-    
 }

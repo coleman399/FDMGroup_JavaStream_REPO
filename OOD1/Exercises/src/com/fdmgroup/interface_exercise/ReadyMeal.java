@@ -1,4 +1,4 @@
-
+package com.fdmgroup.interface_exercise;
 public class ReadyMeal implements BasketItem, FoodItem {
     private String cuisineType;
 

@@ -1,4 +1,4 @@
-
+package com.fdmgroup.examples.lambdas.employee;
 
 public enum Designation {
 
@@ -7,5 +7,5 @@ public enum Designation {
     MANAGER,
     SALES,
     ADMIN;
-    
+
 }

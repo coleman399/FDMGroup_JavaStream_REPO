@@ -1,3 +1,4 @@
+package com.fdmgroup.conditionals_module;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,7 +17,7 @@ public class Module_3 {
         } else if (alienColour.get(playerChoice).equals("yellow")) {
             playerScore = playerScore + 15;
             System.out.println(playerScore);
-        } else if (alienColour.get(playerChoice).equals("red")){
+        } else if (alienColour.get(playerChoice).equals("red")) {
             playerScore = playerScore + 10;
             System.out.println(playerScore);
         } else {
@@ -61,9 +62,9 @@ public class Module_3 {
         } else {
             System.out.println("invalid pin");
         }
-        
+
         String flightCode = "BA5678";
-        String airlineCode = flightCode.substring(0,2);
+        String airlineCode = flightCode.substring(0, 2);
 
         if (airlineCode.equals("LH") || flightCode.equals("BA") || flightCode.equals("FR")) {
             System.out.println("valid airline");
@@ -84,10 +85,10 @@ public class Module_3 {
         boolean isDead = true;
         boolean hasPassedEyeTest = true;
 
-        if (hasLicense && ! isDead && hasPassedEyeTest) {
+        if (hasLicense && !isDead && hasPassedEyeTest) {
             System.out.println("can drive");
         } else {
             System.out.println("not licensed to drive");
         }
-    }   
+    }
 }
