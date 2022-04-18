@@ -1,4 +1,4 @@
-package com.fdmgroup.Notes;
+package com.fdmgroup.notes;
 
 import java.util.ArrayList;
 import java.util.Arrays;
