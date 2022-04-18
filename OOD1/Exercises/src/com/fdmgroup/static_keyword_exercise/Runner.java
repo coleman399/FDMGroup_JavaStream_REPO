@@ -1,4 +1,3 @@
-package com.fdmgroup.static_keyword_exercise;
 
 public class Runner {
     public static void main(String[] args) {

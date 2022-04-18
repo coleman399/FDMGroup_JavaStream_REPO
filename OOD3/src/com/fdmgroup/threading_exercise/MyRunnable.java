@@ -1,4 +1,4 @@
-package com.fdmgroup.threading_exercise;
+
 
 public class MyRunnable implements Runnable {
     String name;

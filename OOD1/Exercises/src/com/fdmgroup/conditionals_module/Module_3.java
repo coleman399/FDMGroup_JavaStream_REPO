@@ -1,4 +1,3 @@
-package com.fdmgroup.conditionals_module;
 
 import java.util.ArrayList;
 import java.util.Arrays;

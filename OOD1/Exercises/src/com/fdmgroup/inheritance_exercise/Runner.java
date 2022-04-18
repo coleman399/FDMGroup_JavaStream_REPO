@@ -1,4 +1,3 @@
-package com.fdmgroup.inheritance_exercise;
 
 public class Runner {
     public static void main(String[] args) {

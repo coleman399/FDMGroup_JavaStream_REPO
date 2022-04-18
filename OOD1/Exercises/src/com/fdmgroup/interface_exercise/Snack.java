@@ -1,4 +1,4 @@
-package com.fdmgroup.interface_exercise;
+
 
 public class Snack implements BasketItem, FoodItem {
     private int fatContent;

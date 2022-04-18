@@ -1,4 +1,4 @@
-package com.fdmgroup.dependency_module;
+
 
 public class Computer {
     private final String MODEL;

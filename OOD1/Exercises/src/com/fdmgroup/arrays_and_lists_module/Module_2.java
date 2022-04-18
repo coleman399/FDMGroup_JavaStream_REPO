@@ -1,4 +1,3 @@
-package com.fdmgroup.arrays_and_lists_module;
 
 public class Module_2 {
 	public static void main(final String[] args) {

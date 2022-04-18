@@ -1,4 +1,4 @@
-package com.fdmgroup.static_keyword_exercise;
+
 
 public class Employee {
     private String name;

@@ -1,4 +1,4 @@
-package com.fdmgroup.streams_tutorial;
+
 
 public class Trainee {
     private String firstName;

@@ -1,4 +1,3 @@
-package com.fdmgroup.dependency_module;
 
 public class Runner {
     public static void main(String[] args) {

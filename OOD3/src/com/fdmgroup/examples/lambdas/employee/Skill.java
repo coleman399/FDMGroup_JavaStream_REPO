@@ -1,4 +1,4 @@
-package com.fdmgroup.examples.lambdas.employee;
+
 
 public enum Skill {
 

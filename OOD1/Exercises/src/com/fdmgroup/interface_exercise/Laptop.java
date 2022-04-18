@@ -1,4 +1,4 @@
-package com.fdmgroup.interface_exercise;
+
 
 public class Laptop implements BasketItem {
     private double cpuSpeed;

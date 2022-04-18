@@ -1,4 +1,4 @@
-package com.fdmgroup.inheritance_exercise;
+
 
 public abstract class UserAccount {
     private String username;

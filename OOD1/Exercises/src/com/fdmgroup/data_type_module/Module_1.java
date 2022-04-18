@@ -1,4 +1,4 @@
-package com.fdmgroup.data_type_module;
+
 
 public class Module_1 {
 	public static void main(final String[] args) {

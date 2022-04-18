@@ -1,4 +1,3 @@
-package com.fdmgroup.dependency_exercise;
 
 public class Runner {
     public static void main(String[] args) {
@@ -25,10 +24,10 @@ public class Runner {
         Memory memory2 = new Memory("Corsair", 8.0, 1333);
 
         System.out.println(memory1.getMODEL());
-        System.out.println(memory1.getSPEED());
+        System.out.println(memory1.getSpeed());
         System.out.println(memory1.getCAPACITY());
         System.out.println(memory2.getMODEL());
-        System.out.println(memory2.getSPEED());
+        System.out.println(memory2.getSpeed());
         System.out.println(memory2.getCAPACITY());
 
         drive1.setUsedSpace(50);

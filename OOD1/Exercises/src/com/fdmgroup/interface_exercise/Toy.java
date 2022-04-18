@@ -1,4 +1,3 @@
-package com.fdmgroup.interface_exercise;
 
 public class Toy implements BasketItem {
     private int minAge;

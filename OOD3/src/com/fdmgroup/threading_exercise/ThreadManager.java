@@ -1,4 +1,3 @@
-package com.fdmgroup.threading_exercise;
 
 import java.util.ArrayList;
 import java.util.List;

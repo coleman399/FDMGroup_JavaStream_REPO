@@ -1,4 +1,4 @@
-package com.fdmgroup.examples.doodle;
+
 
 public class ThreadLambdas {
     public static void main(String[] args) {

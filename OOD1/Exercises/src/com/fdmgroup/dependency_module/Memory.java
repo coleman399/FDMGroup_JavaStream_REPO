@@ -1,4 +1,3 @@
-package com.fdmgroup.dependency_module;
 
 public class Memory {
     private final String MODEL;

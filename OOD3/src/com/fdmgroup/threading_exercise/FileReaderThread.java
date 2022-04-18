@@ -1,4 +1,4 @@
-package com.fdmgroup.threading_exercise;
+
 
 import java.io.BufferedReader;
 import java.io.FileReader;

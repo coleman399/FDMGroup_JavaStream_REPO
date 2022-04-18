@@ -1,4 +1,4 @@
-package com.fdmgroup.exercise_two;
+
 
 public class Publisher {
     private int id;

@@ -1,4 +1,3 @@
-package com.fdmgroup.loop_module;
 
 import java.util.ArrayList;
 import java.util.Arrays;
