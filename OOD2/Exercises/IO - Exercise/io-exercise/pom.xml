@@ -43,6 +43,7 @@
 
   </dependencies>
   <build>
+    <sourceDirectory>Java Projects\FDMGroup_JavaStream_REPO\OOD2\Exercises\IO - Exercise\io-exercise\src</sourceDirectory>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

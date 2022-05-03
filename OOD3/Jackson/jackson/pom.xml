@@ -53,9 +53,9 @@
       <version>2.13.2.2</version>
     </dependency>
 
-    
   </dependencies>
   <build>
+    <sourceDirectory>Java Projects\FDMGroup_JavaStream_REPO\OOD3\Jackson\jackson\src</sourceDirectory>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

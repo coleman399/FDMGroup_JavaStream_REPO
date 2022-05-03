@@ -9,7 +9,6 @@
 
 	<name>tdd</name>
 	<url>http://maven.apache.org</url>
-
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -34,4 +33,7 @@
 			<version>5.8.2</version>
 		</dependency>
 	</dependencies>
+	<build>
+		<sourceDirectory>Java Projects\FDMGroup_JavaStream_REPO\OOD2\Exercises\Project\project\src</sourceDirectory>
+	</build>
 </project>

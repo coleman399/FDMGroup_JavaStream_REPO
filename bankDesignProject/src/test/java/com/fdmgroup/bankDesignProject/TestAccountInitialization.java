@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TestAccountInitialisation {
+public class TestAccountInitialization {
 
 	Account savingsAccount1;
 	Account savingsAccount2;
